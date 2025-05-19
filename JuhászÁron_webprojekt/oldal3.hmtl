@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Japán Desszertek</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        img {
+            width: 250px;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Japán Desszertek</h1>
+        <p>Készítette: [A neved]</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Kezdőlap</a></li>
+            <li><a href="oldal2.html">Japán Ételek</a></li>
+            <li><a href="oldal3.html">Japán Desszertek</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section>
+            <h2>Hagyományos Japán Desszertek</h2>
+            <p>A japán desszertek, más néven <em>wagashi</em>, különleges ízekkel és formákkal nyűgöznek le. Íme néhány népszerű desszert:</p>
+            <ul>
+                <li>Mochi</li>
+                <li>Dorayaki</li>
+                <li>Daifuku</li>
+                <li>Matcha fagylalt</li>
+                <li>Anmitsu</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Kapcsolódó cikkek</h2>
+            <ul>
+                <li><a href="https://www.justonecookbook.com/category/dessert/" target="_blank">Just One Cookbook - Desszertek</a></li>
+                <li><a href="https://japanobjects.com/features/wagashi" target="_blank">Japan Objects - Wagashi</a></li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Galéria</h2>
+            <img src="mochi.jpg" alt="Mochi" class="float-left">
+            <img src="dorayaki.jpg" alt="Dorayaki" class="float-right">
+        </section>
+
+        <section>
+            <h2>Desszertek táblázata</h2>
+            <table border="1">
+                <tr>
+                    <th>Desszert</th>
+                    <th>Fő Összetevők</th>
+                </tr>
+                <tr>
+                    <td>Mochi</td>
+                    <td>Rizsliszt, cukor</td>
+                </tr>
+                <tr>
+                    <td>Dorayaki</td>
+                    <td>Piskóta, vörösbab paszta</td>
+                </tr>
+                <tr>
+                    <td>Matcha fagylalt</td>
+                    <td>Zöld tea, tej</td>
+                </tr>
+            </table>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Japán Ételek és Desszertek. Készítette: [A neved]</p>
+    </footer>
+</body>
+</html>
